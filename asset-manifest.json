@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/protofilo/static/css/main.4ce0a6bb.css",
+    "main.js": "/protofilo/static/js/main.b0e09a74.js",
+    "static/js/787.919a2397.chunk.js": "/protofilo/static/js/787.919a2397.chunk.js",
+    "static/media/sun.jpg": "/protofilo/static/media/sun.bcb9fa11496a69b0aa48.jpg",
+    "static/media/project1.PNG": "/protofilo/static/media/project1.8838deb41198dc4686c1.PNG",
+    "static/media/project2.PNG": "/protofilo/static/media/project2.2384fb627e01163030a2.PNG",
+    "static/media/Icon04.jpg": "/protofilo/static/media/Icon04.87c8002e5b58e84c3f5a.jpg",
+    "static/media/moon.png": "/protofilo/static/media/moon.f5ed386f19cab04abe25.png",
+    "static/media/image.jpg": "/protofilo/static/media/image.69ba68437196c1d88967.jpg",
+    "index.html": "/protofilo/index.html",
+    "main.4ce0a6bb.css.map": "/protofilo/static/css/main.4ce0a6bb.css.map",
+    "main.b0e09a74.js.map": "/protofilo/static/js/main.b0e09a74.js.map",
+    "787.919a2397.chunk.js.map": "/protofilo/static/js/787.919a2397.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4ce0a6bb.css",
+    "static/js/main.b0e09a74.js"
+  ]
+}
