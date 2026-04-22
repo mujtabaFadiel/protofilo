@@ -15,7 +15,8 @@ const Product = (props) => {
                     className={props.imgMobile ? 'img-mobile' : 'img'}
                 />
             </a>
-            <p>{props.title}</p>
+            <h3>{props.title}</h3>
+            <p className='pl-desc'>{props.p}</p>
         </div>
     )
 }

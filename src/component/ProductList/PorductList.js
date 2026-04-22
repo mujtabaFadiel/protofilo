@@ -19,6 +19,11 @@ function PorductList() {
                 {/* مشروع الـ Social App الجديد */}
                 <Product 
                   title="Wave Social App"
+                  p="Register & Login (JWT Auth)
+Create posts
+Like & Comment
+Follow users
+View feed (following users only)"
                   link="https://github.com/mujtabaFadiel/Wave-App" // رابط المستودع
                   img={chatImg}
                   imgMobile
@@ -29,6 +34,11 @@ function PorductList() {
                   title="Real-Time Chat Backend"
                   link="https://github.com/mujtabaFadiel/chat-app-backend" 
                   img={chatDbImg}
+                  p="Real-Time Chat Backend
+
+- Built with NestJS and WebSocket (Socket.IO)
+- JWT authentication and PostgreSQL database
+- Private messaging using rooms"
                 />
 
                 {/* مشاريعك السابقة */}
