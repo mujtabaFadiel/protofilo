@@ -3,6 +3,27 @@
     display: flex;
     align-items: center;
 }
+.b {
+    padding: 50px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    /* إضافة الظل */
+    
+    border-radius: 15px;      /* زوايا ناعمة */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* ظل ناعم وعميق */
+    
+    margin: 20px;             /* مسافة خارجية ليظهر الظل بوضوح */
+    transition: transform 0.3s ease; /* لإضافة حركة عند التمرير */
+}
+
+/* تأثير عند مرور الماوس (Hover) */
+.b:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+}
 .a-left {
     flex: 1;   
     display: flex;
@@ -36,6 +57,12 @@
 .a-desc {
     font-weight: 300;
     width: 80%;
+    line-height: 1.8;
+    font-size: 20px;
+}
+.a-desc2 {
+    font-weight: 300;
+    width: 100%;
     line-height: 1.8;
     font-size: 20px;
 }

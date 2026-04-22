@@ -5,42 +5,117 @@
     align-items: center;
     text-align: center;
 }
+
 .pl-texts {
     width: 80%;
+    margin-bottom: 30px;
 }
+
 .pl-title {
     font-size: 50px;
     font-weight: 600;
+    color: #333;
 }
-.pl-desc{
+
+.pl-desc {
     margin: 20px 0px;
+    font-size: 18px;
+    color: #666;
 }
+
 .pl-list {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 40px;
+    /* مسافة ثابتة بين المشاريع */
 }
-.p img {
+
+/* تنسيق حاوية المشروع الواحد */
+.p {
+    transition: transform 0.3s ease;
+}
+
+.p:hover {
+    transform: translateY(-10px);
+    /* حركة خفيفة للأعلى عند التمرير */
+}
+
+/* --- الإضافات الجديدة للصور والظلال --- */
+
+/* تنسيق مشترك للصور */
+.p .img {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    /* الظل الذي طلبته */
+    border-radius: 15px;
+    object-fit: cover;
+    transition: box-shadow 0.3s ease;
     width: 100%;
 }
 
+.p:hover .img {
+    box-shadow: 0 15px 45px rgba(0, 0, 0, 0.25);
+    /* زيادة الظل عند التمرير */
+}
+
+/* تنسيق خاص لصور الموبايل (مثل Wave و Chat) */
+/* تنسيق خاص لصور الموبايل - النسخة المعدلة */
+.img-mobile {
+    width:100%;
+    /* عرض مناسب وأقل قليلاً */
+    max-height: 400px;
+    /* تقليل الطول الأقصى */
+
+    /* التغيير الجوهري هنا */
+    object-fit: contain;
+    border-radius: 15px;
+    transition: box-shadow 0.3s ease;
+}
+
+/* في حالة التجاوب مع الشاشات الصغيرة */
 @media(max-width: 767px) {
-    .pl-list{
-        align-items: center;
-        flex-direction: column;
-    }
-    .p {
-        width: 50%
+    .img-mobile {
+        width: 100%;
+        /* تصغير العرض في الشاشات الصغيرة */
+        max-height: 350px;
+        /* تصغير الطول أكثر في الموبايل */
     }
 }
 
+/* تنسيق خاص لصور الويب (Landing Pages) */
+.img-web {
+    width: 450px;
+    height: 250px;
+}
+
+/* --- التجاوب مع الشاشات (Responsive) --- */
+
+@media(max-width: 767px) {
+    .pl-list {
+        align-items: center;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .img-web {
+        width: 90%;
+        /* عرض كامل للويب على الموبايل */
+        height: auto;
+    }
+
+    .img-mobile {
+        /* تصغير الموبايل قليلاً ليناسب الشاشة */
+        height: 400px;
+    }
+}
 
 @media(max-width: 576px) {
-    .p {
-        width: 70%
+    .pl-title {
+        font-size: 32px;
     }
-    .pl-texts h1 {
-       font-size: 30px;
+
+    .pl-desc {
+        font-size: 16px;
     }
 }

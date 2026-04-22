@@ -18,3 +18,16 @@
     margin: 3px;
     background-color: white;
 }
+
+
+@media(max-width: 767px) {
+   .p{
+    width: 70%;
+}
+}
+
+@media(max-width: 576px) {
+    .p{
+    width: 70%;
+}
+}
