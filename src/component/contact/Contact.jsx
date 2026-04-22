@@ -43,7 +43,7 @@ const Contact = () => {
                              src="https://th.bing.com/th/id/OIP.bhlUB1eQfmysmFtQb71JCAHaHa?rs=1&pid=ImgDetMain" 
                              alt="pic" 
                              className="c-icon" />
-                             +249 907380073
+                             +968 7991 9877
                         </div>
                         <div className="c-info-item">
                             <img
