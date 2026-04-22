@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/protofilo/static/css/main.586a2325.css",
-    "main.js": "/protofilo/static/js/main.fb4f9e58.js",
+    "main.css": "/protofilo/static/css/main.af0f0490.css",
+    "main.js": "/protofilo/static/js/main.f2ca4036.js",
     "static/js/787.919a2397.chunk.js": "/protofilo/static/js/787.919a2397.chunk.js",
     "static/media/sun.jpg": "/protofilo/static/media/sun.bcb9fa11496a69b0aa48.jpg",
     "static/media/project1.PNG": "/protofilo/static/media/project1.8838deb41198dc4686c1.PNG",
@@ -12,12 +12,12 @@
     "static/media/moon.png": "/protofilo/static/media/moon.f5ed386f19cab04abe25.png",
     "static/media/image.jpg": "/protofilo/static/media/image.69ba68437196c1d88967.jpg",
     "index.html": "/protofilo/index.html",
-    "main.586a2325.css.map": "/protofilo/static/css/main.586a2325.css.map",
-    "main.fb4f9e58.js.map": "/protofilo/static/js/main.fb4f9e58.js.map",
+    "main.af0f0490.css.map": "/protofilo/static/css/main.af0f0490.css.map",
+    "main.f2ca4036.js.map": "/protofilo/static/js/main.f2ca4036.js.map",
     "787.919a2397.chunk.js.map": "/protofilo/static/js/787.919a2397.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.586a2325.css",
-    "static/js/main.fb4f9e58.js"
+    "static/css/main.af0f0490.css",
+    "static/js/main.f2ca4036.js"
   ]
 }
