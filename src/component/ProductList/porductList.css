@@ -73,6 +73,31 @@
     transition: box-shadow 0.3s ease;
 }
 
+.img-video {
+    width: 100%;
+    max-height: 220px; /* الطول الذي اخترته مناسب جداً لصور الموبايل */
+    object-fit: contain; /* يضمن بقاء أبعاد الفيديو صحيحة دون تشويه */
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+
+    image-rendering: -webkit-optimize-contrast; /* لتحسين التباين في المتصفحات */
+    image-rendering: crisp-edges;
+    transform: translateZ(0); /* تفعيل تسريع الهاردوير للجرافيك */
+    backface-visibility: hidden;
+}
+
+.img-video:hover {
+    transform: scale(1.02); /* حركية بسيطة عند مرور الماوس */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* لضمان أن التاج الخاص بالـ video يعامل نفس معاملة الصورة */
+video.img-video {
+    display: block;
+    margin: 0 auto;
+}
+
 /* في حالة التجاوب مع الشاشات الصغيرة */
 @media(max-width: 767px) {
     .img-mobile {
