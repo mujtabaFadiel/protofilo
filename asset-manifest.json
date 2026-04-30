@@ -1,9 +1,11 @@
 {
   "files": {
-    "main.css": "/protofilo/static/css/main.af0f0490.css",
-    "main.js": "/protofilo/static/js/main.f2ca4036.js",
+    "main.css": "/protofilo/static/css/main.3465847b.css",
+    "main.js": "/protofilo/static/js/main.27ad3189.js",
     "static/js/787.919a2397.chunk.js": "/protofilo/static/js/787.919a2397.chunk.js",
+    "static/media/videoDemo.mp4": "/protofilo/static/media/videoDemo.6d30d40a3a652724a257.mp4",
     "static/media/sun.jpg": "/protofilo/static/media/sun.bcb9fa11496a69b0aa48.jpg",
+    "static/media/chatapp.jpg": "/protofilo/static/media/chatapp.377d5ecebc55c17ae021.jpg",
     "static/media/project1.PNG": "/protofilo/static/media/project1.8838deb41198dc4686c1.PNG",
     "static/media/project2.PNG": "/protofilo/static/media/project2.2384fb627e01163030a2.PNG",
     "static/media/chat-app.jpeg": "/protofilo/static/media/chat-app.d3dbbe8794212848e012.jpeg",
@@ -12,12 +14,12 @@
     "static/media/moon.png": "/protofilo/static/media/moon.f5ed386f19cab04abe25.png",
     "static/media/image.jpg": "/protofilo/static/media/image.69ba68437196c1d88967.jpg",
     "index.html": "/protofilo/index.html",
-    "main.af0f0490.css.map": "/protofilo/static/css/main.af0f0490.css.map",
-    "main.f2ca4036.js.map": "/protofilo/static/js/main.f2ca4036.js.map",
+    "main.3465847b.css.map": "/protofilo/static/css/main.3465847b.css.map",
+    "main.27ad3189.js.map": "/protofilo/static/js/main.27ad3189.js.map",
     "787.919a2397.chunk.js.map": "/protofilo/static/js/787.919a2397.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.af0f0490.css",
-    "static/js/main.f2ca4036.js"
+    "static/css/main.3465847b.css",
+    "static/js/main.27ad3189.js"
   ]
 }
